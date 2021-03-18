@@ -1,0 +1,27 @@
+                IMPORTÂNCIA DOS PROFILES 
+
+                MÚLTIPLOS AMBIENTES 
+
+- Ambiente para desenvolvimento, teste e produção. 
+
+local development -> Development -> Staging -> Production 
+
+Como fazer para trabalharmos com múltiplos AMBIENTES?
+
+- Bancos de dados para cada ambiente;
+
+- execução de testes unitários em ambiente local;
+
+- Suíte de testes completos em ambiente de teste;
+
+- Simulação do ambiente real em staging. 
+
+- Deploy simplificado em produção.
+
+==>> Para isto necessitamos do: 
+
+                SPRING BOOT PROFILES
+
+- Configurações próprias para cada ambiente; 
+
+- Ambientes com sua configuração: dev, production.
