@@ -1,0 +1,24 @@
+                    CONFIGURAÇÃO MANUAL
+
+Antes do Spring Boot tudo era feito de forma manual, e isto demandava muito tempo 
+e era desgastante para o desenvolvimento. 
+
+Com isto, nós tínhamos:
+
+- Múltiplos arquivos xml;
+
+- Configuração manual do Spring MVC: Dispatcher Servlet, web.xml, spring-mvc.xml;
+
+- Configuração manual dos beans Spring;
+
+- Aplicado também ao Spring Data, Spring Security, entre outros.
+
+                    AUTO CONFIGURATION
+
+Starters: dependências simplificadas e auto configuráveis;
+
+- Spring Boot detecta as dependências e configura o ambiente para nós!!!!
+
+-  E por fim, o projeto sai simplificado e pronto para dar foco no valor de 
+desenvolvimento!!!!!!
+
