@@ -1,0 +1,30 @@
+                    PROBLEMAS DO SPRING 
+
+- Configurações de beans em arquivos xml; 
+- Dispatcher Servlet e view resolver em web.xml;
+- Setup manual de Banco de Dados;
+- Muito tempo gasto em configuração;
+- Perda de foco em valor.
+
+Com isto surgiu o Spring Boot!!!!
+
+                    O QUE É O SPRING BOOT?
+
+- Criado pela Spring Source em 2012;
+- Facilitar setup de projetos Spring;
+- Sem necessidade de criar arquivos de configuração;
+- Foco em produtividade; 
+- Maior tempo no desenvolvimento de valor;
+
+Quais problemas resolve?
+
+produtividade: setups simplificado de projeto;
+
+Starters: dependências auto configuráveis pelo Spring Boot.
+
+Execução simplificada: sem deploy em servidor externo; 
+
+Configuração: arquivo externo para configuração;
+
+Valor: resolutividade em tempo e desenvolvimento. 
+
