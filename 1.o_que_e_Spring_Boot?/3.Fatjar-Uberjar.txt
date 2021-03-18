@@ -1,0 +1,29 @@
+                ANTES DO SPRING BOOT 
+
+- Spring tradicional: war precisa de servidor de aplicação;
+
+- Dependência de um container web ou servidor de aplicação;
+
+- Complexidade para configurações; 
+
+- Atualizações frequentes, junto com versão do projeto;
+
+- Gerenciamento manual de configurações;
+
+                FATJAR / UBERJAR
+
+- Artefato do projeto para execução;
+
+- Container web embutido na geração e execução (Tomcat);
+
+- Deploy embarcado com outros containers são opcionais;
+
+- Dependências principais do projeto embarcado;
+
+- Skinny: Aco; Thin: App Dependentes, Fat/Uber => Hollow: App Runtime.
+
+- execução direta através de um único java -jar!!!!
+
+$ mvn package && java -jar target/spring-boot-example-0.10.jar 
+
+Podemos também gerar o war tradicional. 
