@@ -1,0 +1,11 @@
+                CONFIGURAÇÕES COM YAML 
+
+- Troca no formato de configurações: formato.YML. 
+
+                USO DE COMMAND LINE 
+
+- Propriedades de arquivo de configuração na linha de comando.
+
+- Sobrescreve as propriedades definidas no arquivo de configuração padrão.
+
+- Valores passados como argumento na execução do projeto.

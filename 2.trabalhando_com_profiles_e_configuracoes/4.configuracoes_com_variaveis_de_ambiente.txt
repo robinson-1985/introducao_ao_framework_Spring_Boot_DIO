@@ -1,0 +1,44 @@
+                VARIÁVEIS DE AMBIENTE 
+
+- Variável de ambiente pode ser injetada através da anotação @Value no projeto;
+
+- Linux e Mac: export comum de variável; 
+
+export ENV_DB_URL=jdbc:h2:mem:db;DB_CLOSE_DELAY=-1
+
+- Windows: padrão de variável de ambiente.
+
+Basicamente fazemos assim:
+
+- Injeção com anotação @Value({NOME_VARIAVEL});
+
+- Definição de valor default quando não há variável;
+
+       @Value("${ENV_DB_URL:NENHUMA}")
+       private String dbEnvironmentVariable;
+
+
+
+Na parte 5 da aula, foram desenvolvidos os seguintes passos:
+
+Injeção do valor exportado através da variável de ambiente ENV_DB_URL na classe
+AppController.
+
+Definição de um valor default junto com a anotação @Value caso a variável de 
+ambiente acima não seja exportada.
+
+Criação de método para exibir o valor da variável de ambiente no browser.
+
+Executar projeto no terminal e exibir conteúdo no browser.
+
+O projeto consta com todos os passos desenvolvidos acima.
+
+Para executar o projeto no terminal com o profile dev como padrão, digite o 
+seguinte comando:
+
+mvn spring-boot:run 
+
+Após executar o comando acima, basta apenas abrir o seguinte endereço e 
+visualizar a execução do projeto:
+
+http://localhost:8080
