@@ -1,0 +1,6 @@
+                SPRING BOOT PROPERTIES
+
+- Configurações próprias para cada ambiente; 
+
+- Ambientes com sua configuração: dev, production.
+
